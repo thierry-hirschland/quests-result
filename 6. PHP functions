@@ -1,0 +1,67 @@
+<?php
+function writeSecretSentence(string $phrase1, string $phrase2) :string
+{
+    return "The $phrase1 bows before the $phrase2 \n";
+};
+
+$animals = [
+    'Bison',
+    'Horse',
+    'Elephant',
+    'Crocodile',
+    'Girafe',
+    'Bear',
+];
+
+$elements = [
+    'Moon',
+    'Fire',
+    'Sun',
+    'You',
+    'God',
+    'Star',
+];
+
+foreach ($animals as $animal){
+    foreach ($elements as $element) {
+        echo writeSecretSentence($animal, $element);
+    };
+};
+
+thierry@thierry-ThinkPad-T440p:~/wilder/wild-git/my-first-script-php$ php functions.php 
+The Bison bows before the Moon 
+The Bison bows before the Fire 
+The Bison bows before the Sun 
+The Bison bows before the You 
+The Bison bows before the God 
+The Bison bows before the Star 
+The Horse bows before the Moon 
+The Horse bows before the Fire 
+The Horse bows before the Sun 
+The Horse bows before the You 
+The Horse bows before the God 
+The Horse bows before the Star 
+The Elephant bows before the Moon 
+The Elephant bows before the Fire 
+The Elephant bows before the Sun 
+The Elephant bows before the You 
+The Elephant bows before the God 
+The Elephant bows before the Star 
+The Crocodile bows before the Moon 
+The Crocodile bows before the Fire 
+The Crocodile bows before the Sun 
+The Crocodile bows before the You 
+The Crocodile bows before the God 
+The Crocodile bows before the Star 
+The Girafe bows before the Moon 
+The Girafe bows before the Fire 
+The Girafe bows before the Sun 
+The Girafe bows before the You 
+The Girafe bows before the God 
+The Girafe bows before the Star 
+The Bear bows before the Moon 
+The Bear bows before the Fire 
+The Bear bows before the Sun 
+The Bear bows before the You 
+The Bear bows before the God 
+The Bear bows before the Star 
